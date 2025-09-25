@@ -1,2 +1,12 @@
-# IMAGINEYOURWAY
-AN AI PHOTO EDITING TOOL , NOT LIKE OTER BASIC TOOLS YOU HAVE USED IN PAST . THERE'S SOMETING IN MY APP . TRY IT ! THEN LET GIVE ME YOUR ANSWER ?
+# FaceFusion Studio
+
+## Setup
+
+1. Copy the repo locally  
+2. Add `.env.local` with your environment variables  
+3. Run:
+
+```bash
+npm install
+npx prisma migrate dev   # if using Prisma
+npm run dev
