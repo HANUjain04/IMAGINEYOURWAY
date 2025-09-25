@@ -1,0 +1,33 @@
+your‑repo/
+  .env.local
+  package.json
+  next.config.js
+  tailwind.config.js
+  postcss.config.js
+  README.md
+  lib/
+    parseForm.js
+    s3.js
+    firebaseAdmin.js
+  prisma/
+    schema.prisma
+  pages/
+    api/
+      auth/
+        [...nextauth].js
+      remove-bg.js
+      generate-edit.js
+      face-swap.js
+      history.js
+    _app.js
+    index.js
+    history.js
+    face-swap.js
+  components/
+    ImageEditor.jsx
+    FaceSwapComponent.jsx
+    ScanAnimationOverlay.jsx
+  styles/
+    globals.css
+  public/
+    demo-images/   (optional)
