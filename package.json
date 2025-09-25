@@ -1,0 +1,27 @@
+{
+  "name": "facefusion-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma": "prisma"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "next-auth": "^4.22.1",
+    "formidable": "^2.0.1",
+    "framer-motion": "^10.0.0",
+    "node-fetch": "^3.3.1",
+    "@prisma/client": "^4.13.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.13.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
